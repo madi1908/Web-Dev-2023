@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft</title>
+</head>
+<style>
+    .header{
+        margin-left: 60px;
+        margin-bottom: 10px;
+        display: flex;
+    }
+    /* .header a{
+        margin-left: 40px;
+        word-spacing: 5px;
+    } */
+    .words-in-header a{
+        margin-left: 40px;
+        word-spacing: 5px;
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        color:black;
+        font-weight: 400;
+    }
+    .words-in-header:visited{
+        color:black;
+    }
+    .words-in-header a:hover{
+        text-decoration: underline;
+    }
+    .products{
+        text-align: right;
+        margin-top: -50px;
+    }
+    .products ol{
+        display: flex;
+        justify-content: right;
+        list-style-type: none;
+        text-align: right;
+        flex-wrap: wrap;
+        
+    }
+    .products ol li{
+        font-size: 15px;
+        padding-right: 10px;
+    }
+    .products ol li a{
+        color:black;    
+        text-decoration: none;
+        
+    }
+    .products ol li a:hover{
+        text-decoration: underline;
+    }
+    .image-level{
+        padding-top: 10px;
+    }
+    .image-box{
+        background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/micr…ighlight-M365-Icon-Bounce-Word-Merch:VP5-1920x600);
+    }
+    .words-in-image{
+        margin-top: -330px;
+        margin-left: 120px; 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    .words-in-image h1{
+        font-weight: 600;
+        font-family:inherit;
+        font-size: 38px;
+    }
+    .words-in-image button{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #first-button{
+        background-color: rgb(0, 103, 184);
+        border: 1px solid rgb(0, 103, 184);
+        border-radius: 3px; 
+        color:white;
+    }
+    #first-button:hover{
+        background-color: rgba(0, 103, 184, 0.9);
+    }
+    .link-to{
+        text-decoration: none;
+        margin-left: 20px;
+        color:black;
+    }
+    .link-to:hover{
+        text-decoration: underline;
+        color:black;
+    }
+    .link-to:visited{
+        color:rgb(0, 103, 184);
+    }
+    .lupa{
+        margin-top: -3px;
+        margin-left: -8px;
+    }
+    .sign{
+        margin-top: -5px;
+        margin-left: -2px;
+    }
+    .images-4{
+        display: flex;
+    }
+    .first-image{
+        margin-top:200px;
+        margin-left: 40px;  
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .first-image h1{
+        width:80%;
+        font-weight: 500;
+        font-size: 32px;
+    }
+    .second-image h1{
+        width:80%;
+        font-weight: 500;
+        font-size: 32px;
+    }
+    .third-image h1{
+        width:80%;
+        font-weight: 500;
+        font-size: 32px;
+    }
+    .fourth-image h1{
+        width:80%;
+        font-weight: 500;
+        font-size: 32px;
+    }
+    .first-image p{
+        width: 80%;
+    }
+    .second-image p{
+        width: 90%;
+    }
+    .third-image p{
+        width: 90%;
+    }
+    .fourth-image p{
+        width: auto;
+    }
+    .second-image{
+        margin-top:200px;
+        margin-left: -45px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .third-image{
+        margin-top: 200px;
+        margin-left:-30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .fourth-image{
+        margin-top: 200px;
+        margin-left: -10px;
+        margin-right: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .link-in-images{
+        color:blue;
+        text-decoration: none;
+    }
+    .link-in-images:hover{
+        text-decoration: underline;
+    }
+    .link-in-images:visited{
+        color:blue;
+    }
+</style>
+<body>
+    <div class="part-1">
+        <div class="header">
+            <img class="image-level"src="logo.png" width="130"height="27">
+            <p class="words-in-header"><a href="#">Microsoft 365</a> 
+               <a href="#">Office</a>
+               <a href="#">Windows</a>
+               <a href="#">Поддержка</a></p>
+        </div>
+        <div class="products">
+            <ol >
+                <li><a href="#">Продукты Майкрософт</a></li> 
+                <li><a href="#">Поиск</a></li>
+                <li><img src="lupa.png" class="lupa" width="25"></li>
+                <li><a href="#">Войти</a></li>
+                <li><img src="sign.png" class="sign" width="35"></li>
+            </ol>
+        </div>
+        <div class="image-box">
+            <img src="microsoft.avif" width="1520">
+        </div>
+        <div class="words-in-image">
+            <h1>Microsoft 365</h1>
+            <p>Все, что вам нужно, чтобы достичь большего за меньшее время</p>
+            <div class="for-who">
+                <span><button id="first-button">Для 1 человека</button></span>
+                <span><a href="#" class="link-to"> До 6 человек ></a></span>
+            </div>
+        </div>
+    </div>
+    <div class="part-2">
+        <div class="images-4">
+            <div class="first-image">
+                <img src="micro1.avif" width="320">
+                <h1>Разработано для жизни — сегодня и в будущем</h1>
+                <p>Следующее поколение игр. Ваши цели. Друзья и семья. 
+                С Windows 11 вы станете еще ближе к тому, что успели полюбить.</p>
+                <a href="#" class="link-in-images">Проверьте, готов ли ваш ПК ></a>
+            </div>
+            <div class="second-image">
+                <img src="micro2.webp" width="320">
+                <h1>Microsoft Edge</h1>
+                <p>Потрясающая производительность, больше конфиденциальности,
+                продуктивности и дополнительных возможностей.</p>
+                <a href="#" class="link-in-images">Скачать ></a>
+            </div>
+            <div class="third-image">
+                <img src="micro3.webp" width="320">
+                <h1>Microsoft OneDrive</h1>
+                <p>Сохраняйте свои файлы и фотографии на OneDrive — они будут 
+                доступны с любого устройства и где угодно.</p>
+                <a href="#" class="link-in-images">Подробнее ></a>
+            </div>
+            <div class="fourth-image">
+                <img src="micro4.webp" width="320">
+                <h1>OneNote</h1>
+                <p>Приведите свои заметки и дела в порядок.</p>
+                <a href="#" class="link-in-images">Узнать больше ></a>
+            </div>
+    
+        </div>
+    </div>
+</body>
+</html>
