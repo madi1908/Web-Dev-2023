@@ -9,4 +9,3 @@ urlpatterns = [
     path('categories/<int:id>/products/', category_products)
 ]
 
-"dasasas"
